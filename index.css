@@ -27,7 +27,7 @@
         '. t t t t t y y y y y . '
         '. t t t t t y y y y y . '
         '. . . b b b b b b . . . '
-        'r r r r r r r r r r r r '
+        '. . . b b b b b b . . . '
         ;
         }
         .space
@@ -171,7 +171,7 @@
         grid-template:repeat(12,1fr) / repeat(12,1fr);
         grid-template-areas: 
         'z z z z z z z z z z z z '
-        't t t t t t t t t t t t '
+        'z z z z z z z z z z z z '
         't t t t t t t t t t t t '
         't t t t t t t t t t t t '
         't t t t t t t t t t t t '
@@ -181,7 +181,6 @@
         't t t t t t t t t t t t '
         't t t t t t t t t t t t '
         '. . . b b b b b b . . .'
-        '. . . b b b b b b . . . '
         
         ;
         }
@@ -209,11 +208,13 @@
         {
             margin-top: 10px;
             margin-bottom: 10px;
+            padding: 10px;
         }
         input 
         {
             padding: 5px;
             height: 50px;
+            
             
         }
         input[type='number']
