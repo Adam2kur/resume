@@ -220,6 +220,7 @@
         {
             padding: 5px;
             height: 50px;
+            width: 60%;
         
         };
         input[type='number']
